@@ -1,0 +1,18 @@
+{
+  "name": "endpoint-debugger",
+  "version": "0.6.9",
+  "description": "simple app that logs all headers sent by a client, useful for debugging errors",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ThetaHalo <theta@eps.lol>",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "github:ThetaHalo/endpoint-debugger"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
