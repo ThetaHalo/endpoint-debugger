@@ -30,7 +30,9 @@ app.use((req, res, next) => {
     console.log('Request Headers:', req.headers);
     console.log('Request Body:', req.body);
 
-    next(); // add optional endpoints below this if you want to test a specific one.
+    res.status(200).json({message:'Recieved'}) // comment this out if you plan to test specific endpoints, if not then keep this here so requests don't time out.
+
+    // next(); // uncomment this and add optional endpoints below this if you want to test a specific one.
 });
 
 
